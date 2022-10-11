@@ -21,7 +21,7 @@ df = pd.read_csv('store - store.csv')
 # Data prep
 
 # End of Data Prep
-st.dataframe(df)
+st.table(df)
 
 # metrics
 st.metric("Total Sales", 1000, 10)

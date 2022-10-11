@@ -30,7 +30,10 @@ st.metric("Total Profit", "$ 10M", "-2.3%")
 
 st.title("Charting")
 
-
+with st.sidebar:
+    st.title("Dashboard store")
+    freq = st.selectbox("Masukkan frekuensi", ('D', 'W', 'M', 'Q', 'Y'))
+    with st.expander("Ketahui lebih lanjut..."):
 
 st.caption('Ini caption')
 

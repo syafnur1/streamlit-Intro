@@ -37,6 +37,4 @@ with st.sidebar:
 
 
         
-#st.caption('Ini caption')
 
-#st.line_chart(['Quantity'])

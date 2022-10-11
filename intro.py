@@ -35,6 +35,8 @@ with st.sidebar:
     freq = st.selectbox("Masukkan frekuensi", ('D', 'W', 'M', 'Q', 'Y'))
     with st.expander("Ketahui lebih lanjut..."):
 
-st.caption('Ini caption')
 
-st.line_chart(['Quantity'])
+        
+#st.caption('Ini caption')
+
+#st.line_chart(['Quantity'])

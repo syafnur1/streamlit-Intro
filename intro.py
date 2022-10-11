@@ -7,7 +7,6 @@ from PIL import Image
 st.set_page_config(layout="wide")
 
 st.write("Nama Saya Zul")
-
 st.markdown("Nama saya **Rizki**")
 st.markdown("---")
 

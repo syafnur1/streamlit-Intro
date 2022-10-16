@@ -32,10 +32,8 @@ st.markdown("---")
 
 # Image
 image = Image.open("TurisTahun.png")
-st.image(image, use_column_width='auto', caption = "Sumber : Bps")
-'''
-(https://www.bps.go.id/indicator/16/1150/1/jumlah-kunjungan-wisatawan-mancanegara-per-bulan-ke-indonesia-menurut-pintu-masuk-2017---sekarang.html)
-'''
+st.image(image, use_column_width='auto', caption = "Sumber : Badan Pusat Statistik")
+
 st.header("Ini header")
 
 st.code("import streamlit as st")
@@ -58,3 +56,12 @@ st.title("Charting")
 with st.sidebar:
     st.title("Dashboard store")
     freq = st.selectbox("Masukkan frekuensi", ('D', 'W', 'M', 'Q', 'Y'));
+
+    
+'''
+# Daftar Pustaka
+
+https://jurnal.umj.ac.id/index.php/semnastek/article/view/5239/3517
+[BPS]https://www.bps.go.id/indicator/16/1150/1/jumlah-kunjungan-wisatawan-mancanegara-per-bulan-ke-indonesia-menurut-pintu-masuk-2017---sekarang.html
+[Kawal Covid 19](https://docs.google.com/spreadsheets/d/1ma1T9hWbec1pXlwZ89WakRk-OfVUQZsOCFl4FwZxzVw/htmlview)
+'''    

@@ -11,6 +11,7 @@ from PIL import Image
 #from bokeh.plotting import figure, show, output_notebook
 #output_notebook()
 
+st.title("Dashboar Latihan")
 '''
     # Simple Stock Price App
     Made with **streamlit** by Zulfikri Syafnur
@@ -24,7 +25,7 @@ st.write("Nama Saya Zul")
 st.markdown("Nama saya **Rizki**")
 st.markdown("---")
 
-st.title("Dashboar Latihan")
+
 st.header("Ini header")
 
 st.code("import streamlit as st")

@@ -4,7 +4,6 @@ import numpy as np
 #import seaborn as sns
 #import matplotlib.pyplot as plt
 from PIL import Image
-import lorem
 
 #from sklearn.linear_model import LinearRegression
 #from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
@@ -59,17 +58,7 @@ with st.sidebar:
     freq = st.selectbox("Masukkan frekuensi", ('D', 'W', 'M', 'Q', 'Y'));
 
     
-#Penggunaan Kolom
-st.title("Kolom")
-col1, col2, col3 = st.columns(3)
-with col1:
-    st.write(lorem.paragraph())
-
-with col2:
-    st.write(lorem.paragraph())
-
-with col3:
-    st.write(lorem.paragraph())    
+ 
     
 '''
 # Daftar Pustaka

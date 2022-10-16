@@ -11,6 +11,14 @@ from PIL import Image
 #from bokeh.plotting import figure, show, output_notebook
 #output_notebook()
 
+st.sidebar.write(
+    '''
+    # Simple Stock Price App
+    Made with **streamlit** by riztekur
+    '''
+)
+
+
 st.set_page_config(layout="wide")
 
 st.write("Nama Saya Zul")

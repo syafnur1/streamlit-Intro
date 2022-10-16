@@ -11,12 +11,11 @@ from PIL import Image
 #from bokeh.plotting import figure, show, output_notebook
 #output_notebook()
 
-st.sidebar.write(
-    '''
+'''
     # Simple Stock Price App
-    Made with **streamlit** by riztekur
-    '''
-)
+    Made with **streamlit** by Zulfikri Syafnur
+'''
+
 
 
 st.set_page_config(layout="wide")

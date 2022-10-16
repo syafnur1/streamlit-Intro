@@ -28,7 +28,7 @@ st.markdown("---")
 image = Image.open("TurisTahun.png")
 st.image(image, use_column_width='auto', caption = "Sumber : Badan Pusat Statistik")
 
-st.text_area('''Menurut Badan Pusat Statistik, tingkat wisatawan mancanegara (wisman) yang datang ke Indonesia dari hingga tahun 2019 
+st.text_area('Menurut Badan Pusat Statistik','''tingkat wisatawan mancanegara (wisman) yang datang ke Indonesia dari hingga tahun 2019 
 mengalami kenaikan sebanyak **2 juta** wisman, hal ini dapat dilihat pada grafik diatas. Namun saat tingkat wisman yang datang sedang tinggi, 
 terjadi pandemi covid-19 di seluruh dunia termasuk Indonesia pada awal tahun 2020. Hal ini memberikan dampak negatif dengan menurun drastisnya 
 wisman ke Indonesia mencapai **1000%** di tahun 2020.''')

@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-from bokeh.plotting import figure
-
 st.set_page_config(layout="wide")
 
 '''

@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
+from bokeh.plotting import figure
+
 st.set_page_config(layout="wide")
 
 '''
@@ -72,3 +74,8 @@ with st.sidebar:
 
 
 '''    
+df2 = pd.DataFrame(
+    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
+    columns=['lat', 'lon'])
+
+st.map(df2)

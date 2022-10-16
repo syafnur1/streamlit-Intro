@@ -14,6 +14,7 @@ st.set_page_config(layout="wide")
 '''
     # Analisis Pemulihan sektor Pariwisata pasca Pandemi di Indonesia
     Capstone Project with **streamlit** by Zulfikri Syafnur
+    
     ---
 '''
 

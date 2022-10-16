@@ -28,6 +28,12 @@ st.markdown("---")
 image = Image.open("TurisTahun.png")
 st.image(image, use_column_width='auto', caption = "Sumber : Badan Pusat Statistik")
 
+st.text_area('''
+Menurut Badan Pusat Statistik, tingkat wisatawan mancanegara (wisman) yang datang ke Indonesia dari hingga tahun 2019 
+mengalami kenaikan sebanyak **2 juta** wisman, hal ini dapat dilihat pada grafik diatas. Namun saat tingkat wisman yang datang sedang tinggi, 
+terjadi pandemi covid-19 di seluruh dunia termasuk Indonesia pada awal tahun 2020. Hal ini memberikan dampak negatif dengan menurun drastisnya 
+wisman ke Indonesia mencapai **1000%** di tahun 2020.''')
+
 st.header("Ini header")
 
 st.code("import streamlit as st")
@@ -57,15 +63,6 @@ st.title("Charting")
 with st.sidebar:
     st.title("Dashboard store")
     freq = st.selectbox("Masukkan frekuensi", ('D', 'W', 'M', 'Q', 'Y'));
-
-txt = st.text_area('Text to analyze', '''
-    It was the best of times, it was the worst of times, it was
-    the age of wisdom, it was the age of foolishness, it was
-    the epoch of belief, it was the epoch of incredulity, it
-    was the season of Light, it was the season of Darkness, it
-    was the spring of hope, it was the winter of despair, (...)
-    ''')
-st.write('Sentiment:')
  
     
 '''

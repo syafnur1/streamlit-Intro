@@ -40,7 +40,7 @@ df = pd.read_csv('store - store.csv')
 # End of Data Prep
 st.dataframe(df)
 
-df1= df.iloc(:10)
+df1= df.iloc(0:10)
 st.line_chart(data=df1, x = 'Ship Date', y = 'Profit', width=0, height=0, use_container_width=True)
 
 # metrics

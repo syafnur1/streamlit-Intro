@@ -21,6 +21,8 @@ st.set_page_config(layout="wide")
 '''
 ## Kesiapan Stakeholder dalam membangkitkan kembali Pariwisata
 
+_________________
+
 [Pariwisata](https://id.wikipedia.org/wiki/Pariwisata) merupakan cara suatu negara mempromosikan negara tersebut sehingga dapat dikinjungi oleh banyak orang. 
 Di Indonesia, contoh pariwisata yang menjadi tujuan wisata yang terkenal di dunia adalah [Bali](https://bali.com/). 
 Bali terkenal dengan berbagai objek wisatanya seperti wisata alam, wisata budaya, dan wisata bahari

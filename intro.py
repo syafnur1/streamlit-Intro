@@ -1,14 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-#import seaborn as sns
-#import matplotlib.pyplot as plt
 from PIL import Image
 
-#from sklearn.linear_model import LinearRegression
-#from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
-#from bokeh.plotting import figure, show, output_notebook
-#output_notebook()
 st.set_page_config(layout="wide")
 
 '''
@@ -46,7 +40,7 @@ df = pd.read_csv('store - store.csv')
 # End of Data Prep
 st.dataframe(df)
 
-st.line_chart(data=df, x = 'Ship Date', y = 'Profit')
+st.line_chart(data=df, x = 'Ship Date', y = 'Profit', width=0, height=0, use_container_width=True)
 
 # metrics
 st.metric("Total Sales", 1000, 10)

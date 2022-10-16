@@ -13,13 +13,19 @@ from PIL import Image
 st.set_page_config(layout="wide")
 
 '''
-    # Simple Stock Price App
-    Made with *streamlit* by Zulfikri Syafnur
+    # Analisis Pemulihan sektor Pariwisata pasca Pandemi di Indonesia
+    Made with **streamlit** by Zulfikri Syafnur
 '''
 
 st.title("Dashboar Latihan")
 
+'''
+# Kesiapan Stakeholder dalam membangkitkan kembali Pariwisata
 
+Pariwisata merupakan cara suatu negara mempromosikan negara tersebut sehingga dapat dikinjungi oleh banyak orang. 
+Di Indonesia, contoh pariwisata yang menjadi tujuan wisata yang terkenal di dunia adalah Bali. 
+Bali terkenal dengan berbagai objek wisatanya seperti wisata alam, wisata budaya, dan wisata bahari
+'''
 
 st.write("Nama Saya Zul")
 st.markdown("Nama saya **Rizki**")

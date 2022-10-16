@@ -5,8 +5,8 @@ import numpy as np
 #import matplotlib.pyplot as plt
 from PIL import Image
 
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+#from sklearn.linear_model import LinearRegression
+#from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 from bokeh.plotting import figure, show, output_notebook
 output_notebook()

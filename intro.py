@@ -10,16 +10,16 @@ from PIL import Image
 
 #from bokeh.plotting import figure, show, output_notebook
 #output_notebook()
+st.set_page_config(layout="wide")
 
-st.title("Dashboar Latihan")
 '''
     # Simple Stock Price App
-    Made with **streamlit** by Zulfikri Syafnur
+    Made with streamlit by Zulfikri Syafnur
 '''
 
+st.title("Dashboar Latihan")
 
 
-st.set_page_config(layout="wide")
 
 st.write("Nama Saya Zul")
 st.markdown("Nama saya **Rizki**")

@@ -44,7 +44,7 @@ df1= df.iloc[0:10]
 st.line_chart(data=df1, x = 'Ship Date', y = 'Profit', width=0, height=0, use_container_width=True)
 
 
-st.bar_chart(df1)
+st.bar_chart(data=df1, x = 'Ship Date', y = 'Profit')
 
 
 # metrics

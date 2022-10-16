@@ -14,7 +14,7 @@ st.set_page_config(layout="wide")
 
 '''
     # Simple Stock Price App
-    Made with streamlit by Zulfikri Syafnur
+    Made with *streamlit* by Zulfikri Syafnur
 '''
 
 st.title("Dashboar Latihan")

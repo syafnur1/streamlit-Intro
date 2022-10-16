@@ -32,7 +32,7 @@ st.markdown("---")
 
 # Image
 image = Image.open("TurisTahun.png")
-st.image(image, width=5, caption = "Sumber : Bps")
+st.image(image, width=None, caption = "Sumber : Bps")
 '''
 (https://www.bps.go.id/indicator/16/1150/1/jumlah-kunjungan-wisatawan-mancanegara-per-bulan-ke-indonesia-menurut-pintu-masuk-2017---sekarang.html)
 '''
